@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "wB5qJ8YbQ5E3KFF9AKMrZsWOauq5K9z0dG1S/qkDeWNzBfyXVa+D+E73wELs/cYwRUY1q/sAObQDdpePDvMHfQ==",
+  "success": true,
+  "projectFilePath": "C:\\ilyanaDev\\GitHub\\IdentityServerStart\\quickstart\\src\\Client\\Client.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ilyan\\.nuget\\packages\\identitymodel\\4.4.0\\identitymodel.4.4.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\ilyan\\.nuget\\packages\\system.text.encodings.web\\4.7.0\\system.text.encodings.web.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
