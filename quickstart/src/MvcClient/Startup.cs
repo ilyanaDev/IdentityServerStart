@@ -42,6 +42,9 @@ namespace MvcClient
                 options.ClientSecret = "secret";
                 options.ResponseType = "code";
 
+                options.Scope.Add("profile");
+                options.GetClaimsFromUserInfoEndpoint = true;
+
                 options.SaveTokens = true;
             });
         }
@@ -64,6 +67,7 @@ namespace MvcClient
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
